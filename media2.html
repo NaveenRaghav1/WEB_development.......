@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media querry</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+        }
+        @media only screen and (max-width:300px) {
+            #box1{
+                background-color: black;
+                color: white;
+            }
+        }
+        @media only screen and (min-width:300px) and (max-width:500px) {
+            #box2{
+                font-size: 32px;
+                background-color: yellow;
+                color: red;
+            }
+        }
+        @media only screen and (min-width:500px) and (max-width:800px) {
+            #box3{
+                font-size: 50px;
+                color: yellow;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>JAI SHRI RAM</h1>
+        <div class="box" id="box1">aniket raghav</div>
+        <div class="box" id="box2">naveen raghav</div>
+        <div class="box" id="box3">payal raghav</div>
+    
+</body>
+</html>
